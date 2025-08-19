@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/")
-public class aloMundoController {
+public class AloMundoController {
 
     @GetMapping
     public String oie() {
